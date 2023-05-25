@@ -1,0 +1,82 @@
+/* Override Bootstrap variables */
+:root {
+    --primary: #00cc00; /* Change this to the desired shade of green */
+  }
+  
+  /* Override Bootstrap classes */
+  .btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+  }
+  
+  .alert-primary {
+    color: hsl(0, 0%, 100%); /* Change this to the desired color for alert text */
+    background-color: #d4f0d4; /* Change this to the desired color for alert background */
+    border-color: #b1e8b1; /* Change this to the desired color for alert border */
+  }
+  
+  /* Additional classes you may want to customize */
+  .navbar {
+    background-color: var(--primary);
+  }
+  
+  .card-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: #fff; /* Change this to the desired text color on the card */
+  }
+  
+  #carouselExampleAutoplaying {
+    width: 90%;
+    margin: auto;
+    height: 70vh; /* Adjust the height as per your requirement */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #logo { 
+    fill: white;
+  }
+
+  .agrilink {
+    font-size: 40px; /* Adjust the font size as needed */
+  }
+
+
+  .horizontal-line {
+    width: 90%;
+    height: 2px;
+    background: linear-gradient(to bottom, #00ff00, rgba(0, 255, 0, 0));
+    margin: 20px auto;
+  }
+
+  .footer-wrapper {
+    background-color:#00cc00; /* Replace with your desired green color */
+  }
+
+  .footer-wrapper a {
+    text-decoration: none;
+    color: white;
+  }
+
+  h1{
+    color: green;
+  }
+
+  .stdWid{
+    width : 90%;
+    overflow: hidden;
+  }
+
+  .noDec{
+    text-decoration: none;
+    color :green;
+  }
+
+  a:hover{
+    color :rgb(86, 189, 210);
+  }
+
+  
